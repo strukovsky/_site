@@ -85,35 +85,34 @@
     <!--Gallery of articles-->
 
     <div class="container ">
-        <div class="input-group">
+        <div class="input-group input-group-lg">
             <input type="text" class="form-control form-control-lg"
                    placeholder="Введите словцо на любом из 4х языков. Можно без ñ, ç, ù и т.д."
                    aria-label="Введите словцо на любом из 4х языков. Можно без ñ, ç, ù и т.д."
                    aria-describedby="basic-addon2">
             <div class="input-group-append">
-                <a class="btn btn-info" type="button">Искать</a>
+                <button class="btn btn-info" type="button">Искать</button>
             </div>
+
         </div>
     </div>
 
-    <div class="container bg-light">
+    <div class="container container-lg container-fluid card shadow-sm">
+
+        <text>Словарь ещё совершенствуется. Если вдруг
+        вы введете предложение или словосочетание, которого
+        я не знаю, то будет предложен перевод пословно. Существительные французского и испанского
+            будут подсвечены <text class="WordMasculine">голубым</text> или <text class="WordFeminine">розовым</text>  цветом - для мужского и женского
+            рода слов соответственно.
+        </text>
+    </div>
+
+    <div class="container ">
         <div class="row justify-content-center">
-            <div class="form-check form-control-lg">
-                <input class="form-check-input" type="checkbox" value="" id="check_francais">
-                <label class="form-check-label NonSelectableText" for="check_francais">Французский</label>
-            </div>
-            <div class="form-check form-control-lg">
-                <input class="form-check-input" type="checkbox" value="" id="check_espanol">
-                <label class="form-check-label NonSelectableText" for="check_espanol">Испанский</label>
-            </div>
-
-            <div class="form-check form-control-lg">
-                <input class="form-check-input" type="checkbox" value="" id="check_english">
-                <label class="form-check-label NonSelectableText" for="check_english">Английский</label>
-            </div>
-
+            <a class="btn btn-info ButtonSort">Только французский</a>
+            <a class="btn btn-info ButtonSort">Только испанский</a>
+            <a class="btn btn-info ButtonSort">Только английский</a>
         </div>
-    </div>
 
     <div class="container bg-light">
         <table class="table table-hover">
@@ -156,8 +155,8 @@
                 <td>Vieux</td>
                 <td>Viejo</td>
             </tr>
-            <tr id="6">
-                <th scope="row">Гулять</th>
+            <tr id="6" >
+                <th scope="row" class="thread-dark">Гулять</th>
                 <td>Go for a walk</td>
                 <td>Se promener</td>
                 <td>Dar un passeo</td>
@@ -193,15 +192,6 @@
 
     document.getElementById("root").style.background = "url('img/dictionary/" + (1 + getRandomInt(1)).toString() + ".jpg')";
 </script>
-<!--Footer-->
-<footer class="Footer">
-    <div class="container">
-        <div class="row justify-content-center">
-            <p class="text-muted Paragraph">
-                2020 &copy; strukovsky1@gmail.com
-            </p>
-        </div>
-    </div>
-</footer>
+
 </body>
 </html>

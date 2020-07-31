@@ -4,6 +4,9 @@
 	margin-left: 3px;
 }
 
+
+
+
 .Body
 {
 	background-image: url(6533.jpg); /* Путь к фоновому рисунку */
@@ -144,4 +147,17 @@
 .LabelCheckbox
 {
 	margin-bottom: 1%;
+}
+
+.WordFeminine{
+	background: #bf23a5;
+	color: white;
+	padding: 4px;
+}
+
+.WordMasculine
+{
+	color: white;
+	background: #3444c7;
+	padding: 4px;
 }
