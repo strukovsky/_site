@@ -1,0 +1,147 @@
+.nav-item{
+	padding-top: 10px;
+	margin-top: 0;
+	margin-left: 3px;
+}
+
+.Body
+{
+	background-image: url(6533.jpg); /* Путь к фоновому рисунку */
+	background-repeat: repeat;
+	/*background: rgb(255,255,255);*/
+	/*background: -moz-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,202,63,1) 75%, rgba(255,0,0,1) 100%);*/
+	/*background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,202,63,1) 75%, rgba(255,0,0,1) 100%);*/
+	/*background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,202,63,1) 75%, rgba(255,0,0,1) 100%);*/
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ff0000",GradientType=1);*/
+}
+
+
+.NonSelectableText
+{
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none;
+}
+
+.TextDifficulty{
+	border-radius: 3px;
+	border: solid #212529;
+	padding: 3px;
+	background: #212529;
+	text-align: center;
+	font-size: 13pt;
+	font-family: "SansSerif", Serif, "Noto Serif",monospace;
+}
+
+.ArticleLexic{
+	color: #ffca3f;
+}
+
+.ArticleMisc{
+	color: #1fff26;
+}
+
+.ArticleGrammar{
+	color: red;
+}
+
+
+.MenuItemEnabled
+{
+	padding: 4px;
+	background: red;
+	color: white;
+	font-family: "SansSerif", Serif, "Noto Serif",monospace;
+	font-size: 14pt;
+	text-underline: #1d2124;
+}
+
+
+.MenuItemDisabled
+{
+
+	color: #95999c;
+	background: #333494;
+	font-family: "SansSerif", Serif, "Noto Serif",monospace;
+	font-size: larger;
+}
+
+.MenuItemDisabled:hover
+{
+	color: white;
+}
+
+.Album
+{
+	background: transparent;
+}
+
+.Header
+{
+	background: #f0ece2;
+	padding: -10px;
+	text-align: center;
+	border: solid  red;
+	font-family: monospace;
+	color: #1b1e21;
+	font-size: 67pt;
+
+}
+
+
+.PerspectiveOuter{
+	text-align: center;
+	margin: auto;
+	width :30%; /* устанавливаем ширину блока */
+	height : auto; /* устанавливаем высоту блока */
+	-moz-perspective : 60px;  /* для поддержки ранних версий браузеров */
+	-webkit-perspective : 60px;  /* для поддержки ранних версий браузеров */
+	perspective :60px;  /* устанавливаем перспективу для дочернего элемента */
+}
+
+
+
+.PerspectiveInner1{
+	transform : rotateX(10deg); /* двухмерное преобразование путем поворота элемента по часовой стрелке, используя только значение по оси x */
+	-webkit-transform : rotateX(10deg);  /* для поддержки ранних версий браузеров */
+	-moz-transform : rotateX(10deg);  /* для поддержки ранних версий браузеров */
+	-ms-transform : rotateX(10deg);  /* для поддержки ранних версий браузеров */
+}
+
+.PerspectiveInner2{
+	transform : rotateX(-10deg); /* двухмерное преобразование путем поворота элемента по часовой стрелке, используя только значение по оси x */
+	-webkit-transform : rotateX(-10deg);  /* для поддержки ранних версий браузеров */
+	-moz-transform : rotateX(-10deg);  /* для поддержки ранних версий браузеров */
+	-ms-transform : rotateX(-10deg);  /* для поддержки ранних версий браузеров */
+}
+
+
+.Paragraph{
+	font-family: "SansSerif", Serif, "Noto Serif",monospace;
+	font-size: 18pt;
+}
+
+.Footer{
+	background: #212529;
+	padding: 3%;
+}
+
+.Feedback
+{
+	font-size: 18pt;
+	font-family: "Noto Serif", Serif, "Noto Serif", monospace;
+}
+
+.ButtonSort
+{
+	margin: 4px;
+}
+
+
+.LabelCheckbox
+{
+	margin-bottom: 1%;
+}

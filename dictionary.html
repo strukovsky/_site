@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.5.0-dist/css/bootstrap.css">
+    <script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!--Navbar-->
+<header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  d-flex justify-content-center Nav">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span>Меню</span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center " id="navbarNavDropdown">
+            <ul class="navbar-nav">
+
+
+                <li class="nav-item">
+                    <a class="nav-link MenuItemDisabled NonSelectableText" href="francaise.html">
+                        Française</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link MenuItemDisabled NonSelectableText" href="espanol.html">
+                        Español</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link MenuItemDisabled NonSelectableText" href="english.html">
+                        English
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link MenuItemDisabled NonSelectableText" href="main.html">
+                        Дом
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <p class="nav-link">
+                        <text class="MenuItemEnabled NonSelectableText">Словарь</text>
+                    </p>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link MenuItemDisabled NonSelectableText" href="verbs.html">
+                        Глаголы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link MenuItemDisabled NonSelectableText" href="main.html#description">
+                        Что это?</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!--Main part of page-->
+<main class="Body" id="root">
+    <!--Title of section What it is-->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-5 ">
+                <div class="PerspectiveContainer">
+                    <div class="PerspectiveOuter">
+                        <div class="PerspectiveInner1">
+                            <text class="Header NonSelectableText">trn</text>
+                        </div>
+                        <div class="PerspectiveInner2">
+                            <text class="Header NonSelectableText">slt</text>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Gallery of articles-->
+
+    <div class="container ">
+        <div class="input-group">
+            <input type="text" class="form-control form-control-lg"
+                   placeholder="Введите словцо на любом из 4х языков. Можно без ñ, ç, ù и т.д."
+                   aria-label="Введите словцо на любом из 4х языков. Можно без ñ, ç, ù и т.д."
+                   aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <a class="btn btn-info" type="button">Искать</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg-light">
+        <div class="row justify-content-center">
+            <div class="form-check form-control-lg">
+                <input class="form-check-input" type="checkbox" value="" id="check_francais">
+                <label class="form-check-label NonSelectableText" for="check_francais">Французский</label>
+            </div>
+            <div class="form-check form-control-lg">
+                <input class="form-check-input" type="checkbox" value="" id="check_espanol">
+                <label class="form-check-label NonSelectableText" for="check_espanol">Испанский</label>
+            </div>
+
+            <div class="form-check form-control-lg">
+                <input class="form-check-input" type="checkbox" value="" id="check_english">
+                <label class="form-check-label NonSelectableText" for="check_english">Английский</label>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container bg-light">
+        <table class="table table-hover">
+            <thead>
+            <tr id="0">
+                <th scope="col" class="NonSelectableText">Русский</th>
+                <th scope="col" class="NonSelectableText">Английский</th>
+                <th scope="col" class="NonSelectableText">Французский</th>
+                <th scope="col" class="NonSelectableText">Испанский</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr id="1">
+                <th scope="row">Ловко</th>
+                <td>slick</td>
+                <td>habilement</td>
+                <td>hábilmente</td>
+            </tr>
+            <tr id="2">
+                <th scope="row">Яблоко</th>
+                <td>Apple</td>
+                <td>Pomme</td>
+                <td>Manzana</td>
+            </tr>
+            <tr id="3">
+                <th scope="row">Писатель</th>
+                <td>Writer</td>
+                <td>Écrivain</td>
+                <td>Escritor</td>
+            </tr>
+            <tr id="4">
+                <th scope="row">Старый</th>
+                <td>Old</td>
+                <td>Vieux</td>
+                <td>Viejo</td>
+            </tr>
+            <tr id="5">
+                <th scope="row">Старый</th>
+                <td>Old</td>
+                <td>Vieux</td>
+                <td>Viejo</td>
+            </tr>
+            <tr id="6">
+                <th scope="row">Гулять</th>
+                <td>Go for a walk</td>
+                <td>Se promener</td>
+                <td>Dar un passeo</td>
+            </tr>
+            <tr id="7">
+                <th scope="row">Гулять</th>
+                <td>Go for a walk</td>
+                <td>Se promener</td>
+                <td>Dar un passeo</td>
+            </tr>
+            <tr id="8">
+                <th scope="row">Ловко</th>
+                <td>slick</td>
+                <td>habilement</td>
+                <td>hábilmente</td>
+            </tr>
+            <tr id="9">
+                <th scope="row">Яблоко</th>
+                <td>Apple</td>
+                <td>Pomme</td>
+                <td>Manzana</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+</main>
+<script>
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * Math.floor(max));
+    }
+
+    document.getElementById("root").style.background = "url('img/dictionary/" + (1 + getRandomInt(1)).toString() + ".jpg')";
+</script>
+<!--Footer-->
+<footer class="Footer">
+    <div class="container">
+        <div class="row justify-content-center">
+            <p class="text-muted Paragraph">
+                2020 &copy; strukovsky1@gmail.com
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

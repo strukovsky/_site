@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.5.0-dist/css/bootstrap.css">
+    <script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!--Navbar-->
+<header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  d-flex justify-content-center Nav">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span>Меню</span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center " id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <p class="nav-link">
+                        <text class="MenuItemEnabled NonSelectableText">Française</text>
+                    </p>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link MenuItemDisabled NonSelectableText" href="espanol.html">
+                        Español</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link MenuItemDisabled NonSelectableText" href="english.html">
+                        English</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link MenuItemDisabled NonSelectableText" href="main.html">
+                        Дом
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link MenuItemDisabled NonSelectableText" href="dictionary.html">
+                        Словарь
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link MenuItemDisabled NonSelectableText" href="verbs.html">
+                        Глаголы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link MenuItemDisabled NonSelectableText" href="main.html#description">
+                        Что это?</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!--Main part of page-->
+<main class="Body" id="root">
+    <!--Title of section What it is-->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-5 ">
+                <div class="PerspectiveContainer">
+                    <div class="PerspectiveOuter">
+                        <div class="PerspectiveInner1">
+                            <text class="Header NonSelectableText">frn</text>
+                        </div>
+                        <div class="PerspectiveInner2">
+                            <text class="Header NonSelectableText">çse</text>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Gallery of articles-->
+
+
+<div class="container ">
+        <div class="row justify-content-center">
+            <a class="btn btn-info ButtonSort">Только грамматику</a>
+            <a class="btn btn-info ButtonSort">Только лексику</a>
+            <a class="btn btn-info ButtonSort">Всякие остальные статьи</a>
+        </div>
+
+
+</div>
+
+
+
+    <div class="album py-5 bg-light" >
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm" id="card_1">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             class="bd-placeholder-img card-img-top"
+                             role="img" aria-label="Placeholder: Thumbnail"
+                             preserveAspectRatio="xMidYMid slice"
+                             focusable="false"
+                             width="100%"
+                             height="225">
+
+                            <linearGradient id="linear-gradient1">
+                                <stop offset="0%" stop-color="gold"/>
+                                <stop offset="100%" stop-color="teal"/>
+                            </linearGradient>
+
+                            <pattern id="Pattern1" x="0" y="0" width=".25" height=".25">
+                                <rect x="25" y="0" width="50" height="50" fill="skyblue"/>
+                                <rect x="25" y="0" width="25" height="25" fill="url(#linear-gradient1)"/>
+                                <circle cx="25" cy="25" r="20" fill="url(#linear-gradient1)" fill-opacity="0.5"/>
+                            </pattern>
+
+
+                            <rect fill="url(#Pattern1)" width="100%" height="100%"/>
+                        </svg>
+                        <div class="card-body">
+                            <small class="text-muted">15 мин</small>
+                            <p class="card-text">Accent grave et accent aigu. Рассмотрим примеры кто и где участвует.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm btn-info" type="button">Посмотреть</button>
+                                </div>
+                                <small class="TextDifficulty ArticleLexic NonSelectableText">лексика</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm" id="card_2">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             class="bd-placeholder-img card-img-top"
+                             role="img" aria-label="Placeholder: Thumbnail"
+                             preserveAspectRatio="xMidYMid slice"
+                             focusable="false"
+                             width="100%"
+                             height="225">
+
+                            <linearGradient id="linear-gradient2">
+                                <stop offset="0%" stop-color="red"/>
+                                <stop offset="100%" stop-color="teal"/>
+                            </linearGradient>
+
+                            <pattern id="Pattern2" x="0" y="0" width=".25" height=".25">
+                                <rect x="10" y="0" width="50" height="40" fill="skyblue"/>
+                                <rect x="10" y="0" width="25" height="35" fill="url(#linear-gradient2)"/>
+                                <circle cx="25" cy="25" r="20" fill="url(#linear-gradient2)" fill-opacity="0.5"/>
+                            </pattern>
+
+
+                            <rect fill="url(#Pattern2)" width="100%" height="100%"/>
+                        </svg>
+                        <div class="card-body">
+                            <small class="text-muted">10 мин</small>
+                            <p class="card-text">Futur simple. Полный разбор</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm btn-info" type="button">Посмотреть</button>
+                                </div>
+                                <small class="TextDifficulty ArticleGrammar NonSelectableText">грамматика</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm" id="card_3">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             class="bd-placeholder-img card-img-top"
+                             role="img" aria-label="Placeholder: Thumbnail"
+                             preserveAspectRatio="xMidYMid slice"
+                             focusable="false"
+                             width="100%"
+                             height="225">
+
+                            <linearGradient id="linear-gradient3">
+                                <stop offset="0%" stop-color="green"/>
+                                <stop offset="100%" stop-color="teal"/>
+                            </linearGradient>
+
+                            <pattern id="Pattern3" x="0" y="0" width=".25" height=".25">
+                                <rect x="19" y="23" width="40" height="12" fill="skyblue"/>
+                                <rect x="3" y="23" width="12" height="24" fill="url(#linear-gradient3)"/>
+                                <circle cx="25" cy="25" r="20" fill="url(#linear-gradient3)" fill-opacity="0.5"/>
+                            </pattern>
+
+
+                            <rect fill="url(#Pattern3)" width="100%" height="100%"/>
+                        </svg>
+                        <div class="card-body">
+                            <small class="text-muted">5 мин</small>
+                            <p class="card-text">
+                                Поговорим о пунктуации</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm btn-info" type="button">Посмотреть</button>
+                                </div>
+                                <small class="TextDifficulty ArticleMisc NonSelectableText">всяко-разное</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</main>
+<script>
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * Math.floor(max));
+    }
+
+    document.getElementById("root").style.background = "url('img/francaise/"+(1+getRandomInt(3)).toString()+".jpg')";
+</script>
+<!--Footer-->
+<footer class="Footer">
+    <div class="container">
+        <div class="row justify-content-center">
+            <p class="text-muted Paragraph">
+                2020 &copy; strukovsky1@gmail.com
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
